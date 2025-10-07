@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Honk&display=swap');
+
 :root {--white: #ffffffff;
-    --rich-black: #00171fff;
-    --prussian-blue: #003459ff;
-    --cerulean: #007ea7ff;
+    --preto: #00171fff;
+    --azul-escuro: #003459ff;
+    --azul-claro: #007ea7ff;
+    --titulo:"Honk", system-ui;
+    --texto:"Bungee Spice", sans-serif;
+}
+body{
+    background-color: var(--preto);
+    font-family: var(--texto);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    padding:0;
 }
